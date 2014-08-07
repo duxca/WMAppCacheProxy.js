@@ -16,7 +16,7 @@ use Application cache resources inside Iframe.
 ### Browser
 
 ```js
-<script src="lib/AppCacheProxy.js">
+<script src="lib/AppCacheProxy.js"></script>
 <script>
 AppCacheProxy.createProxyURL(url, mimeType, function(err, blobURL){
     console.log(blobURL);
