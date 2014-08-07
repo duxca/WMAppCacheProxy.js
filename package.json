@@ -1,6 +1,6 @@
 {
   "name":           "legokichi.appcacheproxy.js",
-  "version":        "0.0.1",
+  "version":        "0.0.2",
   "description":    "use Application cache resources inside Iframe.",
   "url":            "https://github.com/legokichi/AppCacheProxy.js",
   "keywords":       ["legokich", "WebModule", "Unstable"],
