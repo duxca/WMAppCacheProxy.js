@@ -9,7 +9,7 @@ var _runOnBrowser = "document" in global;
 return new Test("AppCacheProxy", {
         disable:    false,
         browser:    true,
-        worker:     true,
+        worker:     false,
         node:       false,
         button:     true,
         both:       true, // test the primary module and secondary module
@@ -53,8 +53,8 @@ function test_AppCacheProxy_createProxyURLs(test, pass, miss) {
 }
 
 function get(url, callback){
-    var proxy = new Proxy();
-    proxy["on"]("load", function() {
+    var proxy = new XMLHttpRequest();
+    proxy["addEventListener"]("load", function() {
         if ( this["status"] >= 200 && this["status"] < 300 ) {
             callback(null, this["responseText"], this);
         } else {

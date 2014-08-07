@@ -15,49 +15,49 @@
           "line": 1,
           "complexity": {
             "sloc": {
-              "physical": 96,
-              "logical": 46
+              "physical": 95,
+              "logical": 45
             },
-            "cyclomatic": 10,
+            "cyclomatic": 9,
             "halstead": {
               "operators": {
                 "distinct": 19,
-                "total": 113,
+                "total": 108,
                 "identifiers": [
                   "__stripped__"
                 ]
               },
               "operands": {
-                "distinct": 74,
-                "total": 164,
+                "distinct": 69,
+                "total": 159,
                 "identifiers": [
                   "__stripped__"
                 ]
               },
-              "length": 277,
-              "vocabulary": 93,
-              "difficulty": 21.054054054054053,
-              "volume": 1811.3469906769249,
-              "effort": 38136.19745236012,
-              "bugs": 0.6037823302256417,
-              "time": 2118.677636242229
+              "length": 267,
+              "vocabulary": 88,
+              "difficulty": 21.891304347826086,
+              "volume": 1724.6682421761586,
+              "effort": 37755.23738850852,
+              "bugs": 0.5748894140587195,
+              "time": 2097.5131882504734
             },
             "params": 18
           }
         },
         "module": "lib/AppCacheProxy.js",
-        "maintainability": 72.74411800927629
+        "maintainability": 72.9927835136398
       }
     }
   ],
   "summary": {
     "total": {
-      "sloc": 96,
-      "maintainability": 72.74411800927629
+      "sloc": 95,
+      "maintainability": 72.9927835136398
     },
     "average": {
-      "sloc": 96,
-      "maintainability": "72.74"
+      "sloc": 95,
+      "maintainability": "72.99"
     }
   }
 }

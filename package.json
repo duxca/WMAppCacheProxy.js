@@ -1,6 +1,6 @@
 {
   "name":           "legokichi.appcacheproxy.js",
-  "version":        "0.0.2",
+  "version":        "0.1.0",
   "description":    "use Application cache resources inside Iframe.",
   "url":            "https://github.com/legokichi/AppCacheProxy.js",
   "keywords":       ["legokich", "WebModule", "Unstable"],
@@ -32,10 +32,7 @@
     "label":        ["@dev"],
     "module": {
       "develop":    ["uupaa.valid.js"],
-      "release":    [
-        "uupaa.task.js",
-        "uupaa.proxy.js"
-      ]
+      "release":    ["uupaa.task.js"]
     }
   },
   "dependencies": {
