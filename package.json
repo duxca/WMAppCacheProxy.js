@@ -36,8 +36,7 @@
     }
   },
   "dependencies": {
-    "uupaa.task.js": "",
-    "uupaa.proxy.js": ""
+    "uupaa.task.js": ""
   },
   "devDependencies": {
     "uupaa.nodemodule.js": "",
