@@ -75,5 +75,16 @@
       "sloc": 95,
       "maintainability": "72.99"
     }
+  },
+  {
+    "date": "Sun, 10 Aug 2014 14:54:27 GMT",
+    "total": {
+      "sloc": 95,
+      "maintainability": 72.9927835136398
+    },
+    "average": {
+      "sloc": 95,
+      "maintainability": "72.99"
+    }
   }
 ]

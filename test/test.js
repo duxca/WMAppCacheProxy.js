@@ -5,7 +5,7 @@ var Proxy = global["Proxy"] || require("uupaa.proxy.js");
 var _runOnNode = "process" in global;
 var _runOnWorker = "WorkerLocation" in global;
 var _runOnBrowser = "document" in global;
-
+var AppCacheProxy = WMAppCacheProxy;
 return new Test("AppCacheProxy", {
         disable:    false,
         browser:    true,

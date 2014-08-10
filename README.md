@@ -1,12 +1,12 @@
-# AppCacheProxy.js [![Build Status](https://api.travis-ci.org/legokichi/AppCacheProxy.js.png)](http://travis-ci.org/legokichi/AppCacheProxy.js)
+# WMAppCacheProxy.js [![Build Status](https://api.travis-ci.org/legokichi/WMAppCacheProxy.js.png)](http://travis-ci.org/legokichi/WMAppCacheProxy.js)
 
-[![npm](https://nodei.co/npm/legokichi.appcacheproxy.js.png?downloads=true&stars=true)](https://nodei.co/npm/legokichi.appcacheproxy.js/)
+[![npm](https://nodei.co/npm/legokichi.wmappcacheproxy.js.png?downloads=true&stars=true)](https://nodei.co/npm/legokichi.wmappcacheproxy.js/)
 
 use Application cache resources inside Iframe.
 
 ## Document
 
-- [AppCacheProxy.js wiki](https://github.com/legokichi/AppCacheProxy.js/wiki/AppCacheProxy)
+- [WMAppCacheProxy.js wiki](https://github.com/legokichi/AppCacheProxy.js/wiki/WMAppCacheProxy)
 - [Development](https://github.com/uupaa/WebModule/wiki/Development)
 - [WebModule](https://github.com/uupaa/WebModule) ([Slide](http://uupaa.github.io/Slide/slide/WebModule/index.html))
 
@@ -16,9 +16,9 @@ use Application cache resources inside Iframe.
 ### Browser
 
 ```js
-<script src="lib/AppCacheProxy.js"></script>
+<script src="lib/WMAppCacheProxy.js"></script>
 <script>
-AppCacheProxy.createProxyURL(url, mimeType, function(err, blobURL){
+WMAppCacheProxy.createProxyURL(url, mimeType, function(err, blobURL){
     console.log(blobURL);
 });
 </script>
@@ -27,9 +27,9 @@ AppCacheProxy.createProxyURL(url, mimeType, function(err, blobURL){
 ### WebWorkers
 
 ```js
-importScripts("lib/AppCacheProxy.js");
+importScripts("lib/WMAppCacheProxy.js");
 
-AppCacheProxy.createProxyURL(url, mimeType, function(err, blobURL){
+WMAppCacheProxy.createProxyURL(url, mimeType, function(err, blobURL){
     console.log(blobURL);
 });
 ```

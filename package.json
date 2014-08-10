@@ -1,12 +1,12 @@
 {
-  "name":           "legokichi.appcacheproxy.js",
-  "version":        "0.1.0",
+  "name":           "legokichi.wmappcacheproxy.js",
+  "version":        "0.2.0",
   "description":    "use Application cache resources inside Iframe.",
-  "url":            "https://github.com/legokichi/AppCacheProxy.js",
+  "url":            "https://github.com/legokichi/WMAppCacheProxy.js",
   "keywords":       ["legokich", "WebModule", "Unstable"],
   "repository": {
     "type":         "git",
-    "url":          "https://github.com/legokichi/AppCacheProxy.js.git"
+    "url":          "https://github.com/legokichi/WMAppCacheProxy.js.git"
   },
   "scripts": {
     "watch":        "node node_modules/uupaa.watch.js --verbose --action build",
@@ -26,8 +26,8 @@
     "lint":         "node node_modules/uupaa.plato.js; open lint/plato/index.html"
   },
   "x-build": {
-    "source":       ["lib/AppCacheProxy.js"],
-    "output":       "release/AppCacheProxy.min.js",
+    "source":       ["lib/WMAppCacheProxy.js"],
+    "output":       "release/WMAppCacheProxy.min.js",
     "target":       ["browser", "worker"],
     "label":        ["@dev"],
     "module": {

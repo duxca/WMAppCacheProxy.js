@@ -2,10 +2,10 @@ __report = {
   "reports": [
     {
       "info": {
-        "file": "lib/AppCacheProxy.js",
-        "fileShort": "lib/AppCacheProxy.js",
-        "fileSafe": "lib_AppCacheProxy_js",
-        "link": "files/lib_AppCacheProxy_js/index.html"
+        "file": "lib/WMAppCacheProxy.js",
+        "fileShort": "lib/WMAppCacheProxy.js",
+        "fileSafe": "lib_WMAppCacheProxy_js",
+        "link": "files/lib_WMAppCacheProxy_js/index.html"
       },
       "jshint": {
         "messages": 0
@@ -45,7 +45,7 @@ __report = {
             "params": 18
           }
         },
-        "module": "lib/AppCacheProxy.js",
+        "module": "lib/WMAppCacheProxy.js",
         "maintainability": 72.9927835136398
       }
     }
