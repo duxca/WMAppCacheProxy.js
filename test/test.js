@@ -1,6 +1,6 @@
 var ModuleTestAppCacheProxy = (function(global) {
 
-var Proxy = global["Proxy"] || require("uupaa.proxy.js");
+//var Proxy = global["XHRProxy"] || require("uupaa.xhrproxy.js");
 
 var _runOnNode = "process" in global;
 var _runOnWorker = "WorkerLocation" in global;

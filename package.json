@@ -1,14 +1,15 @@
 {
-  "name":           "legokichi.wmappcacheproxy.js",
-  "version":        "0.2.0",
+  "name":           "duxca.wmappcacheproxy.js",
+  "version":        "0.3.0",
   "description":    "use Application cache resources inside Iframe.",
-  "url":            "https://github.com/legokichi/WMAppCacheProxy.js",
-  "keywords":       ["legokich", "WebModule", "Unstable"],
+  "url":            "https://github.com/duxca/WMAppCacheProxy.js",
+  "keywords":       ["duxca", "WebModule", "Unstable"],
   "repository": {
     "type":         "git",
-    "url":          "https://github.com/legokichi/WMAppCacheProxy.js.git"
+    "url":          "https://github.com/duxca/WMAppCacheProxy.js.git"
   },
   "scripts": {
+    "init":         "npm update; npm run build; npm run test-page",
     "watch":        "node node_modules/uupaa.watch.js --verbose --action build",
     "build":        "node node_modules/uupaa.minify.js --verbose --strict --keep --pretty",
     "build-simple": "node node_modules/uupaa.minify.js --verbose --strict --keep --pretty --nowrap --simple",
@@ -22,13 +23,15 @@
     "server":       "http-server -c-1 -p 8585 &",
     "server-stop":  "",
     "server-kill":  "killall -- node /usr/local/bin/http-server -p 8585 ; exit 0",
+    "patch":        "node node_modules/uupaa.webmoduleutility.js/index.js --patched",
     "hint":         "jshint lib/*.js",
-    "lint":         "node node_modules/uupaa.plato.js; open lint/plato/index.html"
+    "lint":         "npm run coverage",
+    "coverage":     "node node_modules/uupaa.plato.js; open lint/plato/index.html"
   },
   "x-build": {
     "source":       ["lib/WMAppCacheProxy.js"],
     "output":       "release/WMAppCacheProxy.min.js",
-    "target":       ["browser", "worker"],
+    "target":       ["browser"],
     "label":        ["@dev"],
     "module": {
       "develop":    ["uupaa.valid.js"],
@@ -39,6 +42,7 @@
     "uupaa.task.js": ""
   },
   "devDependencies": {
+    "uupaa.xhrproxy.js": "",
     "uupaa.nodemodule.js": "",
     "uupaa.reflection.js": "",
     "uupaa.iphonesimulator.js": "",
@@ -49,11 +53,12 @@
     "uupaa.test.js":    "",
     "uupaa.watch.js":   "",
     "uupaa.plato.js":   "",
-    "uupaa.minify.js":  ""
+    "uupaa.minify.js":  "",
+    "uupaa.webmoduleutility.js": ""
   },
   "lib":            "./lib/",
   "main":           "./index.js",
-  "author":         "legokichi <legokichi@gmail.com>",
+  "author":         "duxca",
   "license":        "MIT",
   "contributors":   []
 }

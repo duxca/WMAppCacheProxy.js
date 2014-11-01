@@ -1,3 +1,3 @@
-//module.exports = require("./bin/AppCacheProxy");
-module.exports = require("./lib/AppCacheProxy");
+//module.exports = require("./bin/WMAppCacheProxy");
+module.exports = require("./lib/WMAppCacheProxy");
 
