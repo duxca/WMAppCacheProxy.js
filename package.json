@@ -1,6 +1,6 @@
 {
   "name":           "duxca.wmappcacheproxy.js",
-  "version":        "0.3.1",
+  "version":        "0.3.2",
   "description":    "use Application cache resources inside Iframe.",
   "url":            "https://github.com/duxca/WMAppCacheProxy.js",
   "keywords":       ["duxca", "WebModule", "Unstable"],

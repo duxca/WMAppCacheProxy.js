@@ -22,42 +22,42 @@
             "halstead": {
               "operators": {
                 "distinct": 19,
-                "total": 108,
+                "total": 106,
                 "identifiers": [
                   "__stripped__"
                 ]
               },
               "operands": {
-                "distinct": 69,
-                "total": 159,
+                "distinct": 71,
+                "total": 158,
                 "identifiers": [
                   "__stripped__"
                 ]
               },
-              "length": 267,
-              "vocabulary": 88,
-              "difficulty": 21.891304347826086,
-              "volume": 1724.6682421761586,
-              "effort": 37755.23738850852,
-              "bugs": 0.5748894140587195,
-              "time": 2097.5131882504734
+              "length": 264,
+              "vocabulary": 90,
+              "difficulty": 21.140845070422536,
+              "volume": 1713.849217431034,
+              "effort": 36232.2207797744,
+              "bugs": 0.5712830724770114,
+              "time": 2012.901154431911
             },
             "params": 18
           }
         },
         "module": "lib/WMAppCacheProxy.js",
-        "maintainability": 72.9927835136398
+        "maintainability": 74.2081412980406
       }
     }
   ],
   "summary": {
     "total": {
       "sloc": 95,
-      "maintainability": 72.9927835136398
+      "maintainability": 74.2081412980406
     },
     "average": {
       "sloc": 95,
-      "maintainability": "72.99"
+      "maintainability": "74.21"
     }
   }
 }
